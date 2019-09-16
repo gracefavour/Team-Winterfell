@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-image: linear-gradient(to right, rgba(156, 156, 156, 0.1), #414A48);
+    }
+
+    .leftside, .rightside{
+height: 100vh;
+width: 100%;
+}
+
+.leftside{
+    background-color: black;
+    position: absolute;
+width: 554px;
+height: 580px;
+left: 125px;
+top: 30px;
+margin-bottom: 150px;
+}
+
+.rightside{
+    background-color: darkslategray;
+    position: absolute;
+   
+    width: 700px;
+    height: 580px;
+    right: 125px;
+    top: 30px;
+    border-top-right-radius: 92px;
+    border-bottom-right-radius: 92px;
+}
+  </style>
+
+  <title>Team Winterfell</title>
+</head>
+<body>
+    <ul class="nav justify-content-end lead">
+      <li class="nav-item">
+        <a class="nav-link text-white active" href="#">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contact</a>
+      </li>
+    </ul>
+
+
+    <div class="row no-gutters" >
+      <div class="col">
+          <div class="leftside"></div>
+      </div>
+      <div class="col no-gutters">
+              <div class="rightside"></div>
+      </div>
+  </div>
+</body>
+</html>
